@@ -12,7 +12,6 @@ Este script instala o **Winbox** no Arch Linux via `yay` e configura um **handle
 
 ## 🚀 Como Usar  
 
-### **1️⃣ Baixar o Script**
 
 Primeiro, baixe ou clone este repositório. Você pode clonar o repositório diretamente com o Git ou baixar o script manualmente.
 
@@ -20,4 +19,12 @@ Primeiro, baixe ou clone este repositório. Você pode clonar o repositório dir
 ```bash
 git clone https://github.com/seu-usuario/winbox-handler.git
 cd winbox-handler
+chmod +x instalar_winbox_handler.sh
+./instalar_winbox_handler.sh
+```
 
+
+#### **Testando a Instalação**
+```bash
+xdg-open winbox:<ip>
+```
